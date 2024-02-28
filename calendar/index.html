@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <title>Google Calendar</title>
 </head>
+
 <body>
   <div class="page">
     <header class="header">
@@ -26,7 +28,7 @@
           <button class="button is-secondary">Hoy</button>
           <span class="calendarStatus-navigation">
             <a href="#" class="button is-compact" aria-label="Semana anterior">
-              <i class="icon-chevronLeft" aria-hidden="true" ></i>
+              <i class="icon-chevronLeft" aria-hidden="true"></i>
             </a>
             <a href="#" class="button is-compact" aria-label="Siguiente semana">
               <i class="icon-chevronRight" aria-hidden="true"></i>
@@ -38,7 +40,7 @@
       <div class="header-secondary">
         <select class="select" name="" id="">
           <option value="" selected>Semana</option>
-          <option value="" >Día</option>
+          <option value="">Día</option>
         </select>
         <a href="#user">
           <img src="./image/user.png" alt="">
@@ -121,7 +123,6 @@
 
     </div>
     <main class="calendar">
-      <div class="currentTime"></div>
       <div class="calendar-week">
         <div class="timezoneCell">GMT-5</div>
         <h2 class="calendarDay">
@@ -217,7 +218,9 @@
         <div class="taskCell">
         </div>
         <div class="taskCell"></div>
-        <div class="taskCell"></div>
+        <div class="taskCell has-line">
+          <div class="currentTime"></div>
+        </div>
         <div class="taskCell"></div>
         <div class="taskCell"></div>
         <span class="hourCell">2 AM</span>
@@ -526,4 +529,5 @@
   </dialog>
   <script src="./js/app.js" type="module"></script>
 </body>
+
 </html>

@@ -3,7 +3,7 @@
   color: var(--white);
   border-radius: .25rem;
   padding-inline: 1rem;
-  padding-block: .625rem;
+  padding-block: .2rem;
   overflow: hidden;
   font: var(--body2-medium);
   display: flex;
@@ -14,4 +14,9 @@
 .task p {
   margin: 0;
   white-space: nowrap;
+}
+
+.task.is-primary {
+  background: var(--blue20);
+  color: var(--white);
 }

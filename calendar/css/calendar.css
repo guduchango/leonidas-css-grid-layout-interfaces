@@ -25,6 +25,8 @@
 
 .calendar-day {
   display: grid;
+  --minBlockSize: 3rem;
+  --maxBlockSize: auto;
   grid-template-columns: auto repeat(1, minmax(var(--minInlineSize), var(--maxInlineSize)));
   grid-template-rows: repeat(25, minmax(var(--minBlockSize), var(--maxBlockSize)));
   min-block-size: 700px;

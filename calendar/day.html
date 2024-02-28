@@ -37,8 +37,8 @@
       </div>
       <div class="header-secondary">
         <select class="select" name="" id="">
-          <option value="" selected>Semana</option>
-          <option value="" >Día</option>
+          <option value="week">Semana</option>
+          <option value="day" selected>Día</option>
         </select>
         <a href="#user">
           <img src="./image/user.png" alt="">
@@ -121,20 +121,19 @@
 
     </div>
     <main class="calendar">
-      <div class="currentTime"></div>
+     
       <div class="calendar-day">
-        <div></div>
-        <div>
-          <h2 class="calendarDayWeek">
-            <a href="./calendar-by-day.html" aria-label="Domingo 06 de Junio">
-              <time datetime="06-06-2021">
-                <span>JUE</span> <br>
-                <span>22</span>
-              </time>
-            </a>
-          </h2>
-        </div>
-        <span class="hourCell"> </span>
+        <div class="timezoneCell">GMT-5</div>
+        <h2 class="calendarDayWeek">
+          
+          <a href="./calendar-by-day.html" aria-label="Domingo 06 de Junio">
+            <time datetime="06-06-2021">
+              <span>JUE</span> <br>
+              <span>22</span>
+            </time>
+          </a>
+        </h2>
+        <span class="hourCell"></span>
         <div class="taskCell"></div>
         <span class="hourCell">1 AM</span>
         <div class="taskCell"></div>
@@ -151,6 +150,53 @@
         <span class="hourCell">7 AM</span>
         <div class="taskCell"></div>
         <span class="hourCell">8 AM</span>
+        <div class="taskCell">
+          <div tabindex="0" class="task" aria-label="de 08:00 a 09:00, ir al gym">
+            <p>Ir al gym</p>
+            <p>
+              <time datetime="08:00">8</time> - <time datetime="09:00">9 am</time>
+            </p>
+          </div>
+        </div>
+        <span class="hourCell">9 AM</span>
+        <div class="taskCell has-line">
+          <div class="currentTime"></div>
+        </div>
+        <span class="hourCell">10 AM</span>
+        <div class="taskCell"></div>
+        <span class="hourCell">11 AM</span>
+        <div class="taskCell"></div>
+        <span class="hourCell">12 PM</span>
+        <div class="taskCell">
+          <div tabindex="0" class="task" aria-label="de 12:00 a 13:00, ">
+            <p>Preparar la comida</p>
+            <p>
+              <time datetime="12:00">12</time> - <time datetime="13:00">13 pm</time>
+            </p>
+          </div>
+        </div>
+        <span class="hourCell">1 PM</span>
+        <div class="taskCell"></div>
+        <span class="hourCell">2 AM</span>
+        <div class="taskCell"></div>
+        <span class="hourCell">3 AM</span>
+        <div class="taskCell"></div>
+        <span class="hourCell">4 AM</span>
+        <div class="taskCell">
+          <div tabindex="0" class="task is-primary" aria-label="de 04:00 a 05:00, ">
+            <p>Meet diria</p>
+            <p>
+              <time datetime="04:00">4</time> - <time datetime="05:00">5 pm </time>
+            </p>
+          </div>
+        </div>
+        <span class="hourCell">5 AM</span>
+        <div class="taskCell"></div>
+        <span class="hourCell">6 AM</span>
+        <div class="taskCell"></div>
+        <span class="hourCell">7 AM</span>
+        <div class="taskCell"></div>
+        <span class="hourCell">8 AM</span>
         <div class="taskCell"></div>
         <span class="hourCell">9 AM</span>
         <div class="taskCell"></div>
@@ -158,34 +204,9 @@
         <div class="taskCell"></div>
         <span class="hourCell">11 AM</span>
         <div class="taskCell"></div>
-        <span class="hourCell">12 PM</span>
-        <div class="taskCell"></div>
-        <span class="hourCell">1 PM</span>
-        <div class="taskCell"></div>
-        <span class="hourCell">2 PM</span>
-        <div class="taskCell"></div>
-        <span class="hourCell">3 PM</span>
-        <div class="taskCell"></div>
-        <span class="hourCell">4 PM</span>
-        <div class="taskCell"></div>
-        <span class="hourCell">5 PM</span>
-        <div class="taskCell"></div>
-        <span class="hourCell">6 PM</span>
-        <div class="taskCell"></div>
-        <span class="hourCell">7 PM</span>
-        <div class="taskCell"></div>
-        <span class="hourCell">8 PM</span>
-        <div class="taskCell"></div>
-        <span class="hourCell">9 PM</span>
-        <div class="taskCell"></div>
-        <span class="hourCell">10 PM</span>
-        <div class="taskCell"></div>
-        <span class="hourCell">11 PM</span>
-        <div class="taskCell"></div>
-        <span class="hourCell">12 PM</span>
+        <span class="hourCell">12 AM</span>
         <div class="taskCell"></div>
         
-
       </div>
     </main>
   </div>
