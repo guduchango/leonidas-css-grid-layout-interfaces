@@ -63,4 +63,14 @@ https://leonidas-css-grid-layout-interfaces.edgardoponce.com/15-auto-flow/index.
 
 https://leonidas-css-grid-layout-interfaces.edgardoponce.com/16-aligning/index.html
 
+### Leonidas certification 
+
+![alt text](https://leonidas-css-grid-layout-interfaces.edgardoponce.com/calendar/image/certificate.png "Certification")
+
+
+### Download
+
+[Download certificate](https://leonidas-css-grid-layout-interfaces.edgardoponce.com/calendar/image/certificate.pdf)
+
+
 
